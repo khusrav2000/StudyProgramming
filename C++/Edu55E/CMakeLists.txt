@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.12)
+project(C++)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(Edu55E Edu55E/main.cpp)
+add_executable(Runner )

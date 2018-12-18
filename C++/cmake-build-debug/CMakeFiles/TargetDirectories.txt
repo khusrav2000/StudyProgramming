@@ -1,0 +1,3 @@
+C:/Users/KHUSRAV/Documents/Programminig/C++/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/KHUSRAV/Documents/Programminig/C++/cmake-build-debug/CMakeFiles/Edu55E.dir
+C:/Users/KHUSRAV/Documents/Programminig/C++/cmake-build-debug/CMakeFiles/rebuild_cache.dir

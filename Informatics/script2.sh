@@ -1,0 +1,24 @@
+chmod -wx-wx-wx ./lab0/caterpie2
+chmod 700 ./lab0/caterpie2/mamoswine
+chmod u=wx g=rw o=x /lab0/caterpie2/skorupi
+chmod 440 ./lab0/caterpie2/zigzagoon
+chmod 400 ./lab0/caterpie2/dewott
+chmod 750 ./lab0/caterpie2/dragonair
+chmod r-x—x-wx ./lab0/caterpie2/gothitelle
+chmod 644 ./lab0/crobat7
+chmod ---r--r-- ./lab0/fraxure1
+chmod r-x-w-r-- ./lab0/slowpoke8
+chmod 555 ./lab0/slowpoke8/lickitung
+chmod rwxr---w- ./lab0/slowpoke8/dugtrio
+chmod r-x-w-r-- ./lab0/slowpoke8/gigalith
+chmod -wx-wx-wx ./lab0/slowpoke8/leafeon
+chmod 750 ./lab0/slowpoke8/cubone
+chmod 660 ./lab0/slowpoke8/cleffa
+chmod rw-r----- ./lab0/wartortle1
+chmod -wx-wxr-x ./lab0/yanma5
+chmod ---r—r-- ./lab0/yanma5/granbull
+chmod r-----r-- ./lab0/yanma5/staravia
+chmod rwxr-x-w- ./lab0/yanma5/magneton
+chmod 357 ./lab0/yanma5/sneasel
+chmod ---rw---- ./lab0/yanma5/shellder
+chmod r-------- ./lab0/yanma5/steelix

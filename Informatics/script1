@@ -1,0 +1,5 @@
+#!/bin/bash
+mkdir lab0
+mkdir lab0/caterpie2
+mkdir lab0/caterpie2/mamoswine
+mkdir lab0/caterpie2/skorupi
