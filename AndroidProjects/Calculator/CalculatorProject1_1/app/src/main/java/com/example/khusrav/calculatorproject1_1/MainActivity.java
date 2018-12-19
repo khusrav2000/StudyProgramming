@@ -6,6 +6,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
     Button button0;
     Button button1;
@@ -46,7 +48,6 @@ public class MainActivity extends AppCompatActivity {
         buttonmultiplications = findViewById(R.id.buttonMultiplications);
         buttonsum = findViewById(R.id.buttonSum);
         textView = findViewById(R.id.textView);
-        StringBuilder anwerbox = new StringBuilder("0");
         textView.setText(lastnumber);
         View.OnClickListener onClickListener = new View.OnClickListener() {
             @Override
@@ -107,5 +108,78 @@ public class MainActivity extends AppCompatActivity {
         button7.setOnClickListener(onClickListener);
         button8.setOnClickListener(onClickListener);
         button9.setOnClickListener(onClickListener);
+        final ArrayList<Long> numbers = new ArrayList<>();
+        buttonsum.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(lastnumber.length() > 0) {
+                    if(numbers.size() == 0) {
+                        numbers.add(Long.parseLong(lastnumber.toString()));
+                    }
+                    else{
+                        Long number = Long.parseLong(lastnumber.toString());
+                        numbers.add(numbers.get(numbers.size() - 1) + number);
+                    }
+                    lastnumber.delete(1 , lastnumber.length());
+                    lastnumber.deleteCharAt(0);
+                    lastnumber = new StringBuilder("0");
+                }
+                textView.setText(numbers.get(numbers.size() - 1).toString());
+            }
+        });
+        buttonminus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(lastnumber.length() > 0) {
+                    if(numbers.size() == 0) {
+                        numbers.add(Long.parseLong(lastnumber.toString()));
+                    }
+                    else{
+                        Long number = Long.parseLong(lastnumber.toString());
+                        numbers.add(numbers.get(numbers.size() - 1) - number);
+                    }
+                    lastnumber.delete(1 , lastnumber.length());
+                    lastnumber.deleteCharAt(0);
+                    lastnumber = new StringBuilder("0");
+                }
+                textView.setText(numbers.get(numbers.size() - 1).toString());
+            }
+        });
+        buttonmultiplications.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(lastnumber.length() > 0) {
+                    if(numbers.size() == 0) {
+                        numbers.add(Long.parseLong(lastnumber.toString()));
+                    }
+                    else{
+                        Long number = Long.parseLong(lastnumber.toString());
+                        numbers.add(numbers.get(numbers.size() - 1) * number);
+                    }
+                    lastnumber.delete(1 , lastnumber.length());
+                    lastnumber.deleteCharAt(0);
+                    lastnumber = new StringBuilder("0");
+                }
+                textView.setText(numbers.get(numbers.size() - 1).toString());
+            }
+        });
+        buttondivision.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(lastnumber.length() > 0) {
+                    if(numbers.size() == 0) {
+                        numbers.add(Long.parseLong(lastnumber.toString()));
+                    }
+                    else{
+                        Long number = Long.parseLong(lastnumber.toString());
+                        numbers.add(numbers.get(numbers.size() - 1) / number);
+                    }
+                    lastnumber.delete(1 , lastnumber.length());
+                    lastnumber.deleteCharAt(0);
+                    lastnumber = new StringBuilder("0");
+                }
+                textView.setText(numbers.get(numbers.size() - 1).toString());
+            }
+        });
     }
 }
