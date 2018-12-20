@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-class Patient extends Person {
+class Patient extends Person{
     int temperature = 37;
 
     Patient(){
@@ -24,9 +24,9 @@ class Patient extends Person {
 
     public void buypreparetion(ArrayList<Lekarstvo> namepreparetions){
         Pharmacy pharmacy = new Pharmacy();
-        pharmacy.pharmacistSayHello();
+
         System.out.println("Здравствуйте, мне нужни вот эти лекарство");
-        String[] chek = pharmacy.buypreparetion(namepreparetions);
+        String[] chek = pharmacy.buypreparetion(new pharmasist() , namepreparetions);
         System.out.println("--------Чек---------");
         for (String str : chek){
             System.out.println(str);

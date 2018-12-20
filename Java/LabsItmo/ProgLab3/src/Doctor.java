@@ -26,7 +26,7 @@ public class Doctor extends Person {
             System.out.println(" Градуса");
         }
         else{
-            System.out.print("У вас температура номальная");
+            System.out.print("У вас температура номальная ");
             System.out.print(valuetemperature);
             System.out.println(" Градуса");
         }
@@ -43,6 +43,9 @@ public class Doctor extends Person {
         System.out.println();
         Patient pat = (Patient) patient;
         pat.buypreparetion(assignLekarstvos);
+    }
+    public void sayPatientNormal(){
+        System.out.println("Идит несколько дней отдохниые хорошо еште если не будеть улучшения потом приходите");
     }
     public void AskName(){
         System.out.println("Как вас зовут?");
