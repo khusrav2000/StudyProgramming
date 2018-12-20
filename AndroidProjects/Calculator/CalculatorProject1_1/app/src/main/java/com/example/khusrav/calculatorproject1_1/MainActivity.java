@@ -113,109 +113,35 @@ public class MainActivity extends AppCompatActivity {
         buttonsum.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                if(lastnumber.length() > 0) {
-                    if(numbers.size() == 0) {
-                        numbers.add(Long.parseLong(lastnumber.toString()));
-                    }
-                    else{
-                        Long number = Long.parseLong(lastnumber.toString());
-                        if(1 <= cklickbutton && cklickbutton <= 4) {
-                            numbers.add(getAns(number, cklickbutton));
-                        }
-                    }
-                    lastnumber.delete(1 , lastnumber.length());
-                    lastnumber.deleteCharAt(0);
-                    lastnumber = new StringBuilder("0");
-                }
-                textView.setText(numbers.get(numbers.size() - 1).toString());
+                Calc();
                 cklickbutton = 1 ;
             }
         });
         buttonminus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                if(lastnumber.length() > 0) {
-                    if(numbers.size() == 0) {
-                        numbers.add(Long.parseLong(lastnumber.toString()));
-                    }
-                    else{
-                        Long number = Long.parseLong(lastnumber.toString());
-                        if(1 <= cklickbutton && cklickbutton <= 4) {
-                            numbers.add(getAns(number, cklickbutton));
-                        }
-                    }
-                    lastnumber.delete(1 , lastnumber.length());
-                    lastnumber.deleteCharAt(0);
-                    lastnumber = new StringBuilder("0");
-                }
-                textView.setText(numbers.get(numbers.size() - 1).toString());
+                Calc();
                 cklickbutton = 2 ;
             }
         });
         buttonmultiplications.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                if(lastnumber.length() > 0) {
-                    if(numbers.size() == 0) {
-                        numbers.add(Long.parseLong(lastnumber.toString()));
-                    }
-                    else{
-                        Long number = Long.parseLong(lastnumber.toString());
-                        if(1 <= cklickbutton && cklickbutton <= 4) {
-                            numbers.add(getAns(number, cklickbutton));
-                        }
-                    }
-                    lastnumber.delete(1 , lastnumber.length());
-                    lastnumber.deleteCharAt(0);
-                    lastnumber = new StringBuilder("0");
-                }
-                textView.setText(numbers.get(numbers.size() - 1).toString());
+                Calc();
                 cklickbutton = 3 ;
             }
         });
         buttondivision.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                if(lastnumber.length() > 0) {
-                    if(numbers.size() == 0) {
-                        numbers.add(Long.parseLong(lastnumber.toString()));
-                    }
-                    else{
-                        Long number = Long.parseLong(lastnumber.toString());
-                        if(1 <= cklickbutton && cklickbutton <= 4) {
-                            numbers.add(getAns(number, cklickbutton));
-                        }
-                    }
-                    lastnumber.delete(1 , lastnumber.length());
-                    lastnumber.deleteCharAt(0);
-                    lastnumber = new StringBuilder("0");
-                }
-                textView.setText(numbers.get(numbers.size() - 1).toString());
+                Calc();
                 cklickbutton = 4 ;
             }
         });
         buttonequal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(lastnumber.length() > 0) {
-                    if(numbers.size() == 0) {
-                        numbers.add(Long.parseLong(lastnumber.toString()));
-                    }
-                    else{
-                        Long number = Long.parseLong(lastnumber.toString());
-                        if(1 <= cklickbutton && cklickbutton <= 4) {
-                            numbers.add(getAns(number, cklickbutton));
-                        }
-                    }
-                    lastnumber.delete(1 , lastnumber.length());
-                    lastnumber.deleteCharAt(0);
-                    lastnumber = new StringBuilder("0");
-                }
-                textView.setText(numbers.get(numbers.size() - 1).toString());
+                Calc();
                 cklickbutton = 5 ;
             }
         });
@@ -228,6 +154,23 @@ public class MainActivity extends AppCompatActivity {
                 textView.setText(lastnumber.toString());
             }
         });
+    }
+    public void Calc(){
+        if(lastnumber.length() > 0) {
+            if(numbers.size() == 0) {
+                numbers.add(Long.parseLong(lastnumber.toString()));
+            }
+            else{
+                Long number = Long.parseLong(lastnumber.toString());
+                if(1 <= cklickbutton && cklickbutton <= 4) {
+                    numbers.add(getAns(number, cklickbutton));
+                }
+            }
+            lastnumber.delete(1 , lastnumber.length());
+            lastnumber.deleteCharAt(0);
+            lastnumber = new StringBuilder("0");
+        }
+        textView.setText(numbers.get(numbers.size() - 1).toString());
     }
     public Long getAns(Long number , int clickbutton){
         if(clickbutton == 1) {
