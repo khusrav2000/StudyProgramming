@@ -26,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
     Button buttondivision;
     Button buttonmultiplications;
     TextView textView;
+    int cklickbutton = 0;
+    ArrayList<Long> numbers = new ArrayList<>();
     StringBuilder lastnumber = new StringBuilder("0");
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -108,62 +110,95 @@ public class MainActivity extends AppCompatActivity {
         button7.setOnClickListener(onClickListener);
         button8.setOnClickListener(onClickListener);
         button9.setOnClickListener(onClickListener);
-        final ArrayList<Long> numbers = new ArrayList<>();
         buttonsum.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 if(lastnumber.length() > 0) {
                     if(numbers.size() == 0) {
                         numbers.add(Long.parseLong(lastnumber.toString()));
                     }
                     else{
                         Long number = Long.parseLong(lastnumber.toString());
-                        numbers.add(numbers.get(numbers.size() - 1) + number);
+                        if(1 <= cklickbutton && cklickbutton <= 4) {
+                            numbers.add(getAns(number, cklickbutton));
+                        }
                     }
                     lastnumber.delete(1 , lastnumber.length());
                     lastnumber.deleteCharAt(0);
                     lastnumber = new StringBuilder("0");
                 }
                 textView.setText(numbers.get(numbers.size() - 1).toString());
+                cklickbutton = 1 ;
             }
         });
         buttonminus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 if(lastnumber.length() > 0) {
                     if(numbers.size() == 0) {
                         numbers.add(Long.parseLong(lastnumber.toString()));
                     }
                     else{
                         Long number = Long.parseLong(lastnumber.toString());
-                        numbers.add(numbers.get(numbers.size() - 1) - number);
+                        if(1 <= cklickbutton && cklickbutton <= 4) {
+                            numbers.add(getAns(number, cklickbutton));
+                        }
                     }
                     lastnumber.delete(1 , lastnumber.length());
                     lastnumber.deleteCharAt(0);
                     lastnumber = new StringBuilder("0");
                 }
                 textView.setText(numbers.get(numbers.size() - 1).toString());
+                cklickbutton = 2 ;
             }
         });
         buttonmultiplications.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 if(lastnumber.length() > 0) {
                     if(numbers.size() == 0) {
                         numbers.add(Long.parseLong(lastnumber.toString()));
                     }
                     else{
                         Long number = Long.parseLong(lastnumber.toString());
-                        numbers.add(numbers.get(numbers.size() - 1) * number);
+                        if(1 <= cklickbutton && cklickbutton <= 4) {
+                            numbers.add(getAns(number, cklickbutton));
+                        }
                     }
                     lastnumber.delete(1 , lastnumber.length());
                     lastnumber.deleteCharAt(0);
                     lastnumber = new StringBuilder("0");
                 }
                 textView.setText(numbers.get(numbers.size() - 1).toString());
+                cklickbutton = 3 ;
             }
         });
         buttondivision.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if(lastnumber.length() > 0) {
+                    if(numbers.size() == 0) {
+                        numbers.add(Long.parseLong(lastnumber.toString()));
+                    }
+                    else{
+                        Long number = Long.parseLong(lastnumber.toString());
+                        if(1 <= cklickbutton && cklickbutton <= 4) {
+                            numbers.add(getAns(number, cklickbutton));
+                        }
+                    }
+                    lastnumber.delete(1 , lastnumber.length());
+                    lastnumber.deleteCharAt(0);
+                    lastnumber = new StringBuilder("0");
+                }
+                textView.setText(numbers.get(numbers.size() - 1).toString());
+                cklickbutton = 4 ;
+            }
+        });
+        buttonequal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if(lastnumber.length() > 0) {
@@ -172,14 +207,38 @@ public class MainActivity extends AppCompatActivity {
                     }
                     else{
                         Long number = Long.parseLong(lastnumber.toString());
-                        numbers.add(numbers.get(numbers.size() - 1) / number);
+                        if(1 <= cklickbutton && cklickbutton <= 4) {
+                            numbers.add(getAns(number, cklickbutton));
+                        }
                     }
                     lastnumber.delete(1 , lastnumber.length());
                     lastnumber.deleteCharAt(0);
                     lastnumber = new StringBuilder("0");
                 }
                 textView.setText(numbers.get(numbers.size() - 1).toString());
+                cklickbutton = 5 ;
             }
         });
+        buttondelete.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                numbers.clear();
+                lastnumber.delete(0 , lastnumber.length());
+                lastnumber = new StringBuilder("0");
+                textView.setText(lastnumber.toString());
+            }
+        });
+    }
+    public Long getAns(Long number , int clickbutton){
+        if(clickbutton == 1) {
+            return numbers.get(numbers.size() - 1) + number;
+        }
+        if (clickbutton == 2){
+            return numbers.get(numbers.size() - 1) - number;
+        }
+        if(clickbutton == 3){
+            return numbers.get(numbers.size() - 1) * number;
+        }
+        return numbers.get(numbers.size() - 1) / number;
     }
 }
