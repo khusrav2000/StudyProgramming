@@ -1,9 +1,8 @@
-public class pharmasist implements PharmacyInterface {
-    @Override
+public class Pharmasist extends Person {
+
     public void pharmacistSayHello(){
         System.out.println("Здравствуйте, Чем могу помоч");
     }
-    @Override
     public void pharmacistSayBye(Double totalPrice){
         System.out.print("С вас ");
         System.out.print(totalPrice);

@@ -1,18 +1,15 @@
 public class Main {
     public static void main(String[] args){
         Doctor doc = new Doctor();
+        Pharmacy pharmacy = new Pharmacy();
         for(int i = 0 ; i < 4 ; i ++) {
             PrintNumber(i + 1);
-            Patient pat = new Patient();
-            pat.say_hello();
+            Patient patient = new Patient();
+            patient.setPharmacy(pharmacy);
+            patient.say_hello();
             doc.AskName();
-            pat.Say_Name();
-            doc.measure_temperature(pat);
-            pat.say_WhatToDo();
-            if(pat.temperature > 37)
-                doc.toPrescribeMed(pat);
-            else doc.sayPatientNormal();
-
+            patient.Say_Name();
+            doc.measure_temperature(patient);
             System.out.println("--------------------------------------------------------------------------------------");
         }
     }

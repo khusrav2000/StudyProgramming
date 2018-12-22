@@ -1,4 +1,4 @@
-enum Lekarstvo {
+enum Medicaments {
     новокаин(123.2),
     пирамидон(321.4),
     стрептоцид(456.5),
@@ -8,7 +8,7 @@ enum Lekarstvo {
     Быструмгель(455.2),
     Детралекс(443.4);
     Double price;
-    Lekarstvo(Double Price){
+    Medicaments(Double Price){
         this.price = Price;
     }
     public Double getPrice(){

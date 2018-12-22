@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class CreatChek {
     Double totalPrice = new Double(0);
-    public String[] creatChek(ArrayList<Lekarstvo> preparetions){
+    public String[] creatChek(ArrayList<Medicaments> preparetions){
         String[] chek = new String[preparetions.size() + 1];
         for(int i = 0 ; i < preparetions.size(); i ++) {
             Double price = preparetions.get(i).getPrice();

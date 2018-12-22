@@ -1,14 +1,13 @@
-import java.util.ArrayList;
-
 class Patient extends Person{
-    int temperature = 37;
-
     Patient(){
-        AskRandomNameOrSurname askname = new AskRandomNameOrSurname();
-        super.name = askname.AskRandomName();
+        MakeNewPerson newPatient = new MakeNewPerson();
+        super.name = newPatient.getName();
+        super.surname = newPatient.getSurname();
+        super.temperature = newPatient.getTemperature();
     }
-    public void changetemperature(int temperature){
-        this.temperature = temperature;
+    Pharmacy pharmacy;
+    public void setPharmacy(Object pharmacy){
+        this.pharmacy = (Pharmacy) pharmacy;
     }
     public void Say_Name(){
         System.out.print("Меня зовут ");
@@ -22,11 +21,12 @@ class Patient extends Person{
         System.out.println("Что мне делать");
     }
 
-    public void buypreparetion(ArrayList<Lekarstvo> namepreparetions){
-        Pharmacy pharmacy = new Pharmacy();
-
+    public void taken(Object recipe){
+        buypreparetion(recipe);
+    }
+    public void buypreparetion(Object recipe){
         System.out.println("Здравствуйте, мне нужни вот эти лекарство");
-        String[] chek = pharmacy.buypreparetion(new pharmasist() , namepreparetions);
+        String[] chek = pharmacy.buypreparetion(recipe);
         System.out.println("--------Чек---------");
         for (String str : chek){
             System.out.println(str);
