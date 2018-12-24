@@ -10,9 +10,9 @@ public class Doctor extends Person {
         System.out.println("Сейчас мы провери ...");
         Thermometer thermometer = new Thermometer();
         Double patientTemperature = thermometer.measureTemperature(patient);
-        toAppoinTreatment(patient , patientTemperature);
+        toAppointTreatment(patient , patientTemperature);
     }
-    public void toAppoinTreatment(Object patient , Double patienTemperature){
+    public void toAppointTreatment(Object patient , Double patienTemperature){
         String sayAboutTemperature = null;
         if(patienTemperature >= 38.5) {
             sayAboutTemperature = "У вас очень высокая температура ";
@@ -22,8 +22,10 @@ public class Doctor extends Person {
         }
       
         System.out.println(sayAboutTemperature + patienTemperature + " Градуса");
-        if(patienTemperature < 36.9)
-            sayPatientNormal();
+        if(patienTemperature < 36.9) {
+            sayPatientNormalTemperature(patient);
+
+        }
         else toPrescribeMedications(patient);
     }
     public void toPrescribeMedications(Object patient){
@@ -46,10 +48,16 @@ public class Doctor extends Person {
         Recipe rec = (Recipe) recipe;
         pat.taken(rec);
     }
-    public void sayPatientNormal(){
-        System.out.println("Идит несколько дней отдохниые хорошо еште если не будеть улучшения потом приходите");
+    public void sayPatientNormalTemperature(Object patient){
+        System.out.println("У вас нормальная температура. Давайте измерим ваше давление");
+        measure_Pressure(patient);
     }
-
+    public void measure_Pressure(Object patient){
+        Tonometer tonometer = new Tonometer();
+        String pressure = tonometer.measurePressure(patient);
+        System.out.println("У вас нормальная температура" + pressure);
+        System.out.println("");
+    }
     public ArrayList<Medicaments> getRandomMedicaments(){
         Medicaments[] lekarstvos = Medicaments.values();
         Random rand = new Random();

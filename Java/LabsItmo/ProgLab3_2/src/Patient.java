@@ -4,6 +4,7 @@ class Patient extends Person{
         super.name = newPatient.getName();
         super.surname = newPatient.getSurname();
         super.temperature = newPatient.getTemperature();
+        super.pressure = "120/70";
     }
     Pharmacy pharmacy;
     public void setPharmacy(Object pharmacy){
