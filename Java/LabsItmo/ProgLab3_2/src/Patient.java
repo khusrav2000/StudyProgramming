@@ -1,3 +1,5 @@
+import com.sun.org.apache.bcel.internal.generic.DCONST;
+
 class Patient extends Person{
     Patient(){
         MakeNewPerson newPatient = new MakeNewPerson();
@@ -5,6 +7,10 @@ class Patient extends Person{
         super.surname = newPatient.getSurname();
         super.temperature = newPatient.getTemperature();
         super.pressure = "120/70";
+    }
+
+    public void sayName(){
+        System.out.println(name);
     }
     Pharmacy pharmacy;
     public void setPharmacy(Object pharmacy){
@@ -35,5 +41,8 @@ class Patient extends Person{
         System.out.println("--------------------");
         System.out.println();
         System.out.println("Спасибо");
+    }
+    public void toldAboutTheDisease(){
+        System.out.println("Последние несколько дней я чувствую себя очень слабим я с трудом встаю с постели");
     }
 }

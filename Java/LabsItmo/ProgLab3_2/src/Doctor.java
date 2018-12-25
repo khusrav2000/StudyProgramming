@@ -6,6 +6,14 @@ import java.util.Random;
 import static java.lang.Math.abs;
 
 public class Doctor extends Person {
+    Doctor(String name , String surname){
+        this.name = name;
+        this.surname = surname;
+    }
+    ArrayList<Object> doctorsKnowAbout = new ArrayList<Object>();
+    public void knowAboutDoctor(Object doctor){
+        doctorsKnowAbout.add(doctor);
+    }
     public void measure_temperature(Object patient){
         System.out.println("Сейчас мы провери ...");
         Thermometer thermometer = new Thermometer();
@@ -69,7 +77,10 @@ public class Doctor extends Person {
         }
         return assingnLekarstvos;
     }
-    public void AskName(){
+    public void askName(){
         System.out.println("Как вас зовут?");
+    }
+    public void sayHello(){
+        System.out.println("Здравствуйте, чем могу помоч?");
     }
 }
