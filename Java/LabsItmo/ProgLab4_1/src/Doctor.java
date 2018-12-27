@@ -1,15 +1,22 @@
 import com.sun.deploy.net.proxy.pac.PACFunctions;
 
 import javax.print.Doc;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Random;
 
 import static java.lang.Math.abs;
 
 public class Doctor extends Person {
-    Doctor(String name , String surname){
-        this.name = name;
-        this.surname = surname;
+    Doctor(ResultSet st){
+        try {
+            super.name = st.getString("name");
+            super.surname = st.getString("surname");
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
     }
     ArrayList<Object> doctorsKnowAbout = new ArrayList<Object>();
     public void knowAboutDoctor(Object doctor){

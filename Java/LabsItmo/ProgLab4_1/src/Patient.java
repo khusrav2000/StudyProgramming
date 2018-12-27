@@ -1,10 +1,13 @@
 import com.sun.org.apache.bcel.internal.generic.DCONST;
 
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
 class Patient extends Person{
-    Patient(){
+    Patient(ResultSet st) throws SQLException {
         MakeNewPerson newPatient = new MakeNewPerson();
-        super.name = newPatient.getName();
-        super.surname = newPatient.getSurname();
+        super.name = st.getString("name");
+        super.surname = st.getString("surname");
         super.temperature = newPatient.getTemperature();
         super.pressure = "120/70";
     }

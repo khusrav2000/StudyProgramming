@@ -9,7 +9,7 @@ public class MakeNewPerson {
     final String DB_URL = "jdbc:postgresql://localhost:5432/firstDatabase";
     final String DB_login = "postgres";
     final String DB_password = "123";
-    MakeNewPerson(){
+    /*MakeNewPerson(){
         ResultSet st = null;
         try{
             Connection connection = DriverManager.getConnection(DB_URL , DB_login , DB_password);
@@ -26,7 +26,7 @@ public class MakeNewPerson {
             e.printStackTrace();
         }
 
-    }
+    }*/
     public String getName(){
         String[] names = {"Хусрав",
                 "Искандар",
