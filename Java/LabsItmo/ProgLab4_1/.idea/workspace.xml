@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9d7b9e8-8f1b-4a9a-afb8-5bac2e215e26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Orderly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PersonnelDepartment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AddDiseases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Diseases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProgLab3_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProgLab3_2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgLab3_Hospital/Doctor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgLab3_Hospital/Doctor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProgLab3_Hospital/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgLab3_Hospital/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgLab3_Hospital/MakeNewPerson.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgLab3_Hospital/MakeNewPerson.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgLab3_Hospital/Patient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgLab3_Hospital/Patient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Doctor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MakeNewPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MakeNewPerson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Patient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Orderly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Orderly.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -144,7 +140,7 @@
     <session id="2049913669">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.12" value="1" />
@@ -153,22 +149,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="8" />
+          <entry key="JAVA/" value="1" />
+          <entry key="java" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="8" />
+          <entry key="JAVA" value="10" />
+          <entry key="UML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3513" />
+          <entry key="java" value="4231" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3509" />
+          <entry key="JAVA" value="4227" />
           <entry key="SQL" value="4" />
         </counts>
       </usages-collector>
@@ -193,25 +191,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Patient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="170">
               <caret line="10" column="56" lean-forward="true" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#374#375#0" expanded="true" />
                 <element signature="e#414#415#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Room.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-              <folding>
-                <element signature="e#90#91#0" expanded="true" />
-                <element signature="e#135#136#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -239,15 +224,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Thermometer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Recipe.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -259,11 +235,85 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+            <state relative-caret-position="-34">
+              <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement />
+              <nodes>
+                <node x="302.0" y="1160.0">com</node>
+                <node x="0.0" y="968.0">PharmacyInterface</node>
+                <node x="280.0" y="968.0">Thermometer</node>
+                <node x="595.0" y="1086.0">netscape</node>
+                <node x="0.0" y="530.0">Medicaments</node>
+                <node x="620.0" y="826.0">Recipe</node>
+                <node x="592.0" y="1160.0">sun</node>
+                <node x="210.0" y="1086.0">groovyjarjarasm</node>
+                <node x="448.0" y="1160.0">java</node>
+                <node x="733.0" y="530.0">PersonnelDepartment</node>
+                <node x="153.0" y="1160.0">javax</node>
+                <node x="276.0" y="826.0">CreatChek</node>
+                <node x="0.0" y="1160.0">javafx</node>
+                <node x="923.0" y="826.0">Room</node>
+                <node x="983.0" y="530.0">MakeNewPerson</node>
+                <node x="926.0" y="1086.0">oracle</node>
+                <node x="734.0" y="1160.0">org</node>
+                <node x="255.0" y="211.5">Patient</node>
+                <node x="492.0" y="167.0">Doctor</node>
+                <node x="483.0" y="530.0">AddDiseases</node>
+                <node x="419.0" y="1086.0">META-INF</node>
+                <node x="876.0" y="1160.0">jdk</node>
+                <node x="587.0" y="968.0">Tonometer</node>
+                <node x="0.0" y="289.5">Pharmasist</node>
+                <node x="765.0" y="1086.0">groovy</node>
+                <node x="0.0" y="826.0">Pharmacy</node>
+                <node x="865.0" y="968.0">groovyjarjarcommonscli</node>
+                <node x="0.0" y="1086.0">groovyjarjarantlr</node>
+                <node x="843.0" y="0.0">Main</node>
+                <node x="284.5" y="0.0">Person</node>
+                <node x="233.0" y="530.0">Orderly</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="Doctor" target="Person">
+                  <point x="0.0" y="-159.0" />
+                  <point x="645.0" y="142.0" />
+                  <point x="416.16666666666663" y="142.0" />
+                  <point x="52.66666666666663" y="58.5" />
+                </edge>
+                <edge source="Patient" target="Person">
+                  <point x="0.0" y="-114.5" />
+                  <point x="0.0" y="58.5" />
+                </edge>
+                <edge source="Pharmasist" target="Person">
+                  <point x="0.0" y="-36.5" />
+                  <point x="117.5" y="142.0" />
+                  <point x="310.8333333333333" y="142.0" />
+                  <point x="-52.666666666666686" y="58.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.4226633581472291" x="1.2084148727983575" y="557.8277886497065" />
+              <SelectedNodes>
+                <node>com</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+                <Category>Properties</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -271,8 +321,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PersonnelDepartment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+            <state>
+              <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Orderly.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="106">
+              <caret line="35" column="62" lean-forward="true" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -281,10 +340,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Orderly.java">
+        <entry file="file://$PROJECT_DIR$/src/AddDiseases.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+            <state relative-caret-position="136">
+              <caret line="8" column="82" lean-forward="true" selection-start-line="8" selection-start-column="82" selection-end-line="8" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -338,8 +397,10 @@
         <option value="$PROJECT_DIR$/src/Doctor.java" />
         <option value="$PROJECT_DIR$/src/Patient.java" />
         <option value="$PROJECT_DIR$/src/MakeNewPerson.java" />
-        <option value="$PROJECT_DIR$/src/Orderly.java" />
         <option value="$PROJECT_DIR$/src/PersonnelВepartment.java" />
+        <option value="$PROJECT_DIR$/src/Diseases.java" />
+        <option value="$PROJECT_DIR$/src/AddDiseases.java" />
+        <option value="$PROJECT_DIR$/src/Orderly.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
@@ -387,8 +448,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545885568045" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546021985744" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProgLab3_2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -435,18 +496,18 @@
       <workItem from="1545608572483" duration="7163000" />
       <workItem from="1545698357885" duration="5415000" />
       <workItem from="1545806032259" duration="5009000" />
-      <workItem from="1545879819649" duration="5230000" />
+      <workItem from="1545879819649" duration="12618000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65299000" />
+    <option name="totallyTimeSpent" value="72687000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21619433" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21619433" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -455,7 +516,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" x="0" y="23" width="1281" height="658" id="Run" order="2" sideWeight="0.49878544" type="WINDOWED" visible="true" weight="0.3291815" />
+      <window_info anchor="bottom" x="0" y="11" width="1281" height="658" id="Run" order="2" sideWeight="0.49878544" type="WINDOWED" weight="0.3291815" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -648,157 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://JAVA/">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement />
-          <nodes>
-            <node x="149.0" y="1242.0">com</node>
-            <node x="482.5" y="288.5">PharmacyInterface</node>
-            <node x="666.0" y="1132.0">netscape</node>
-            <node x="823.8305555555555" y="445.5">AskRandomNameOrSurname</node>
-            <node x="997.0" y="1132.0">oracle</node>
-            <node x="439.0" y="1242.0">org</node>
-            <node x="513.25" y="590.0">Patient</node>
-            <node x="0.0" y="802.0">Doctor</node>
-            <node x="581.0" y="1242.0">sun</node>
-            <node x="490.0" y="1132.0">META-INF</node>
-            <node x="723.0" y="1242.0">jdk</node>
-            <node x="281.0" y="1132.0">groovyjarjarasm</node>
-            <node x="295.0" y="1242.0">java</node>
-            <node x="836.0" y="1132.0">groovy</node>
-            <node x="0.0" y="1242.0">javax</node>
-            <node x="360.75" y="434.5">Pharmacy</node>
-            <node x="523.9666666666666" y="0.0">Lekarstvo</node>
-            <node x="184.5" y="288.0">CreatChek</node>
-            <node x="30.0" y="1132.0">groovyjarjarcommonscli</node>
-            <node x="1151.0" y="1132.0">javafx</node>
-            <node x="1129.8305555555555" y="6.201171875">groovyjarjarantlr</node>
-            <node x="380.7055555555555" y="1014.0">Main</node>
-            <node x="57.75" y="434.0">Person</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="Doctor" target="Patient">
-              <point x="85.66666666666669" y="-81.0" />
-              <point x="214.16666666666669" y="777.0" />
-              <point x="562.25" y="777.0" />
-              <point x="-98.0" y="81.0" />
-            </edge>
-            <edge source="Pharmacy" target="PharmacyInterface">
-              <point x="38.5" y="-47.5" />
-              <point x="553.25" y="404.0" />
-              <point x="636.5" y="404.0" />
-              <point x="0.0" y="47.5" />
-            </edge>
-            <edge source="Patient" target="Pharmacy">
-              <point x="-24.5" y="-81.0" />
-              <point x="635.75" y="570.0" />
-              <point x="591.75" y="570.0" />
-              <point x="77.0" y="47.5" />
-            </edge>
-            <edge source="groovyjarjarantlr" target="groovyjarjarantlr">
-              <point x="55.0" y="14.5" />
-              <point x="1267.3305555555555" y="75.201171875" />
-              <point x="1089.8305555555555" y="75.201171875" />
-              <point x="1089.8305555555555" y="11.034505208333336" />
-              <point x="-82.5" y="-9.666666666666664" />
-            </edge>
-            <edge source="Patient" target="Lekarstvo">
-              <point x="24.5" y="-81.0" />
-              <point x="684.75" y="550.0" />
-              <point x="813.3305555555555" y="550.0" />
-              <point x="813.3305555555555" y="248.0" />
-              <point x="631.0666666666666" y="248.0" />
-              <point x="47.60000000000001" y="114.0" />
-            </edge>
-            <edge source="CreatChek" target="Lekarstvo">
-              <point x="0.0" y="-48.0" />
-              <point x="323.5" y="268.0" />
-              <point x="559.6666666666666" y="268.0" />
-              <point x="-23.80000000000001" y="114.0" />
-            </edge>
-            <edge source="PharmacyInterface" target="Lekarstvo">
-              <point x="0.0" y="-47.5" />
-              <point x="636.5" y="268.0" />
-              <point x="583.4666666666666" y="268.0" />
-              <point x="0.0" y="114.0" />
-            </edge>
-            <edge source="Doctor" target="Person">
-              <point x="0.0" y="-81.0" />
-              <point x="-70.75" y="48.0" />
-            </edge>
-            <edge source="groovyjarjarcommonscli" target="groovyjarjarcommonscli">
-              <point x="-51.5" y="14.5" />
-              <point x="81.5" y="1181.0" />
-              <point x="10.0" y="1181.0" />
-              <point x="10.0" y="1153.75" />
-              <point x="-103.0" y="7.25" />
-            </edge>
-            <edge source="Main" target="Doctor">
-              <point x="-22.75" y="-36.5" />
-              <point x="448.9555555555555" y="984.0" />
-              <point x="192.75" y="984.0" />
-              <point x="64.25" y="81.0" />
-            </edge>
-            <edge source="Patient" target="AskRandomNameOrSurname">
-              <point x="122.5" y="-81.0" />
-              <point x="782.75" y="570.0" />
-              <point x="989.5805555555555" y="570.0" />
-              <point x="55.25" y="36.5" />
-            </edge>
-            <edge source="Main" target="Patient">
-              <point x="68.25" y="-36.5" />
-              <point x="539.9555555555555" y="994.0" />
-              <point x="711.7055555555555" y="994.0" />
-              <point x="711.7055555555555" y="777.0" />
-              <point x="758.25" y="777.0" />
-              <point x="98.00000000000003" y="81.0" />
-            </edge>
-            <edge source="Patient" target="Person">
-              <point x="-122.5" y="-81.0" />
-              <point x="537.75" y="570.0" />
-              <point x="270.0" y="570.0" />
-              <point x="70.75" y="48.0" />
-            </edge>
-            <edge source="Pharmacy" target="CreatChek">
-              <point x="-38.5" y="-47.5" />
-              <point x="476.25" y="404.0" />
-              <point x="393.0" y="404.0" />
-              <point x="69.5" y="48.0" />
-            </edge>
-            <edge source="Doctor" target="Lekarstvo">
-              <point x="-85.66666666666669" y="-81.0" />
-              <point x="42.833333333333314" y="777.0" />
-              <point x="35.26666666666665" y="777.0" />
-              <point x="35.26666666666665" y="258.0" />
-              <point x="535.8666666666666" y="258.0" />
-              <point x="-47.60000000000002" y="114.0" />
-            </edge>
-            <edge source="Pharmacy" target="Lekarstvo">
-              <point x="115.5" y="-47.5" />
-              <point x="630.25" y="414.0" />
-              <point x="801.0" y="414.0" />
-              <point x="801.0" y="258.0" />
-              <point x="607.2666666666665" y="258.0" />
-              <point x="23.79999999999994" y="114.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.9933566433566435" x="232.0" y="222.0" />
-          <SelectedNodes>
-            <node>Main</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SelectPharmacy.java" />
     <entry file="file://$PROJECT_DIR$/src/Pharmasist.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -850,24 +760,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tonometer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Thermometer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Recipe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -878,16 +774,6 @@
           <folding>
             <element signature="e#90#91#0" expanded="true" />
             <element signature="e#135#136#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Doctor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" column="52" lean-forward="true" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -904,9 +790,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Recipe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tonometer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Patient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="170">
           <caret line="10" column="56" lean-forward="true" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -916,10 +816,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Orderly.java">
+    <entry file="file://$PROJECT_DIR$/src/Diseases.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AddDiseases.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        <state relative-caret-position="136">
+          <caret line="8" column="82" lean-forward="true" selection-start-line="8" selection-start-column="82" selection-end-line="8" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -928,8 +831,97 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PersonnelDepartment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        <state>
+          <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="302.0" y="1160.0">com</node>
+            <node x="0.0" y="968.0">PharmacyInterface</node>
+            <node x="280.0" y="968.0">Thermometer</node>
+            <node x="595.0" y="1086.0">netscape</node>
+            <node x="0.0" y="530.0">Medicaments</node>
+            <node x="620.0" y="826.0">Recipe</node>
+            <node x="592.0" y="1160.0">sun</node>
+            <node x="210.0" y="1086.0">groovyjarjarasm</node>
+            <node x="448.0" y="1160.0">java</node>
+            <node x="733.0" y="530.0">PersonnelDepartment</node>
+            <node x="153.0" y="1160.0">javax</node>
+            <node x="276.0" y="826.0">CreatChek</node>
+            <node x="0.0" y="1160.0">javafx</node>
+            <node x="923.0" y="826.0">Room</node>
+            <node x="983.0" y="530.0">MakeNewPerson</node>
+            <node x="926.0" y="1086.0">oracle</node>
+            <node x="734.0" y="1160.0">org</node>
+            <node x="255.0" y="211.5">Patient</node>
+            <node x="492.0" y="167.0">Doctor</node>
+            <node x="483.0" y="530.0">AddDiseases</node>
+            <node x="419.0" y="1086.0">META-INF</node>
+            <node x="876.0" y="1160.0">jdk</node>
+            <node x="587.0" y="968.0">Tonometer</node>
+            <node x="0.0" y="289.5">Pharmasist</node>
+            <node x="765.0" y="1086.0">groovy</node>
+            <node x="0.0" y="826.0">Pharmacy</node>
+            <node x="865.0" y="968.0">groovyjarjarcommonscli</node>
+            <node x="0.0" y="1086.0">groovyjarjarantlr</node>
+            <node x="843.0" y="0.0">Main</node>
+            <node x="284.5" y="0.0">Person</node>
+            <node x="233.0" y="530.0">Orderly</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Doctor" target="Person">
+              <point x="0.0" y="-159.0" />
+              <point x="645.0" y="142.0" />
+              <point x="416.16666666666663" y="142.0" />
+              <point x="52.66666666666663" y="58.5" />
+            </edge>
+            <edge source="Patient" target="Person">
+              <point x="0.0" y="-114.5" />
+              <point x="0.0" y="58.5" />
+            </edge>
+            <edge source="Pharmasist" target="Person">
+              <point x="0.0" y="-36.5" />
+              <point x="117.5" y="142.0" />
+              <point x="310.8333333333333" y="142.0" />
+              <point x="-52.666666666666686" y="58.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.4226633581472291" x="1.2084148727983575" y="557.8277886497065" />
+          <SelectedNodes>
+            <node>com</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Orderly.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="35" column="62" lean-forward="true" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Doctor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="52" lean-forward="true" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -938,8 +930,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+        <state relative-caret-position="-34">
+          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

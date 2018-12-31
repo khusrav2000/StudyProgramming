@@ -19,24 +19,30 @@ public class Main {
         //Doctor doc2 = new Doctor("Григори" , "Хаус");
         //doc1.knowAboutDoctor(doc2);
         //Room room = new Room();
-        //room.setDoctorForThisRoom(doc1)
+        //room.setDoctorForThisRoom(doc1);
         PersonnelDepartment personnelDepartment = new PersonnelDepartment();
         Orderly orderly = new Orderly();
-        Pharmacy pharmacy = new Pharmacy();
+        AddDiseases addDiseases = new AddDiseases();
         for(int i = 0 ; i < 10 ; i ++) {
             System.out.println("1: Принять Поциента");
             System.out.println("2: Добавить доктора");
             System.out.println("3: Я доктор и Хочу принят пациента");
+            System.out.println("4: Добавить болезни");
 
             int answer = scan.nextInt();
-            if(answer == 1){
-                orderly.takeThePatient();
-            }
-            else if (answer == 2){
-                personnelDepartment.addDoctor();
-            }
-            else{
-                IamADoctor();
+            switch (answer){
+                case 1:
+                    orderly.takeThePatient();
+                    break;
+                case 2:
+                    personnelDepartment.addDoctor();
+                    break;
+                case 3:
+                    IamADoctor();
+                    break;
+                case 4:
+                    addDiseases.AddDiseases();
+                    break;
             }
             System.out.println("--------------------------------------------------------------------------------------");
         }
@@ -79,7 +85,7 @@ public class Main {
         }
     }
 
-
+    static Pharmacy pharmacy = new Pharmacy();
     private static void getRandomPatient(Room room) throws SQLException {
         ResultSet st = null;
         try {
@@ -93,12 +99,14 @@ public class Main {
             System.out.println("имя: " + st.getString("name"));
             System.out.println("фамилия: "+ st.getString("surname"));
             System.out.println("возрасть: "+st.getString("age"));
+            System.out.println("болезн: "+st.getString("symptomofillness"));
             System.out.println("-----------------");
         }catch (Exception e){
             e.printStackTrace();
             System.out.println("Не удаётся найти пациента");
         }
         Patient pat = new Patient(st);
+        pat.setPharmacy(pharmacy);
         room.enterTheRoom(pat);
     }
 

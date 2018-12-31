@@ -41,21 +41,27 @@ public class Orderly {
         adress = scan.nextLine();
         System.out.println("Ваш номер телефона: ");
         phone = scan.next();
+        System.out.println("Какие у вас симптони болезни: ");
+        scan.nextLine();
+        String diseases = scan.nextLine();
+        //PrintSymptomOfIllness();
         try{
             //Connection connection = DriverManager.getConnection(DB_URL , DB_login , DB_password);
-            String sql1 = "INSERT INTO patients (name , surname , age , adress , phone) " +
-                    "VALUES(?,?,?,?,?)";
+            String sql1 = "INSERT INTO patients (name , surname , age , adress , phone , symptomofillness) " +
+                    "VALUES(?,?,?,?,?,?)";
             PreparedStatement statement = connection.prepareStatement(sql1);
             statement.setString(1 , name);
             statement.setString(2 , surname);
             statement.setInt(3 , age);
             statement.setString(4 , adress);
             statement.setString(5, phone);
+            statement.setString(6 , diseases);
             statement.executeUpdate();
+            System.out.println("Пациент добавлен!");
         } catch (Exception e) {
             System.out.println("Не удаётся добавит поциента");
             e.printStackTrace();
         }
-        System.out.println("Пациент добавлен!");
+
     }
 }
