@@ -35,6 +35,8 @@ int main(){
     }
     while (answer.back() == 0)
         answer.pop_back();
-    cout << answer.size();
+    reverse(answer.begin() , answer.end());
+    for(auto i : answer)
+        cout << i ;
 }
 
