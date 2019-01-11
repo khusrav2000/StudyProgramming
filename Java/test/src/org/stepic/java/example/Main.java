@@ -1,12 +1,19 @@
 package org.stepic.java.example;
 public final class Main{
     public static void main(String[] args){
-        System.out.println(getClassAndMethodName());
+        //System.out.println(getClassAndMethodName());
         firstMethod();
     }
     public static void firstMethod(){
-        System.out.println(getClassAndMethodName());
-        secondMethod();
+        int x ;
+        try {
+            for(;;)
+                break;
+        }catch (Exception e){
+
+        }finally {
+            System.out.println("YES");
+        }
     }
     public static void secondMethod(){
         System.out.println(getClassAndMethodName());

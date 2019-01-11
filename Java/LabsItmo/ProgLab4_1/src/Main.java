@@ -14,7 +14,6 @@ public class Main {
     }
     public static void main(String[] args){
         connectToDatabase();
-
         //Doctor doc1 = new Doctor("Ганнибал" , "Лектор");
         //Doctor doc2 = new Doctor("Григори" , "Хаус");
         //doc1.knowAboutDoctor(doc2);

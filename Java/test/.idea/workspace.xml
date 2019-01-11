@@ -2,43 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5671a62f-a8cb-43da-a0ff-8d86403effb9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../LabsItmo/ProgLab4_1/src/AddDiseases.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LabsItmo/ProgLab4_1/src/Diseases.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/stepic/java/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../C++/Edu55E/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Edu55E/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/Edu55E/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Edu55E/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/Edu55E.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/Edu55E.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/Edu55E.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/Edu55E.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/Edu55E.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/Edu55E.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/Edu55E.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/Edu55E.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/Edu55E.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/Edu55E.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/Edu55E.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/Edu55E.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/Edu55E.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/Edu55E.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/Edu55E/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Edu55E/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LabsItmo/ProgLab3_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LabsItmo/ProgLab3_2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LabsItmo/ProgLab4_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LabsItmo/ProgLab4_1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LabsItmo/ProgLab4_1/out/production/ProgLab3_Hospital/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LabsItmo/ProgLab4_1/out/production/ProgLab3_Hospital/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LabsItmo/ProgLab4_1/out/production/ProgLab3_Hospital/Orderly.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LabsItmo/ProgLab4_1/out/production/ProgLab3_Hospital/Orderly.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LabsItmo/ProgLab4_1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LabsItmo/ProgLab4_1/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LabsItmo/ProgLab4_1/src/Orderly.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LabsItmo/ProgLab4_1/src/Orderly.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/test/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/org/stepic/java/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/org/stepic/java/example/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/stepic/java/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/stepic/java/example/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -103,19 +71,22 @@
     <session id="939771511">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="373" />
+          <entry key="java" value="452" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="373" />
+          <entry key="JAVA" value="452" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -135,12 +106,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/org/stepic/java/example/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-              <folding>
-                <element signature="e#256#257#0" expanded="true" />
-                <element signature="e#277#278#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="238">
+              <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -205,8 +172,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -229,13 +194,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545598462287" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LabsItmo/ProgLab3_2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -281,16 +248,20 @@
       <workItem from="1544611246482" duration="1728000" />
       <workItem from="1545593524923" duration="3354000" />
       <workItem from="1546195516500" duration="1420000" />
+      <workItem from="1546262687937" duration="1352000" />
+      <workItem from="1546265639405" duration="1219000" />
+      <workItem from="1546591728981" duration="790000" />
+      <workItem from="1546877878290" duration="28000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16004000" />
+    <option name="totallyTimeSpent" value="19393000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29554656" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3165992" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -329,12 +300,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/org/stepic/java/example/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding>
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
         </state>
       </provider>
     </entry>
