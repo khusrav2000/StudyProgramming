@@ -5,24 +5,26 @@
 
 #include <bits/stdc++.h>
 using namespace std;
+int dp[100];
+int mod = 1e9 + 7 ;
 int main() {
-    int n , m , k , ans = 0 , a[100001];
-    vector<int> verr;
-    cin >> n >> m >> k ;
-    ans = n ;
-    for(int i = 0 ; i < n ; i ++) {
-        cin >> a[i];
-    }
-    for(int i = 1 ; i < n ; i ++){
-        verr.push_back(a[i] - a[i - 1] - 1);
-    }
-    sort(verr.begin() , verr.end());
-    reverse(verr.begin() , verr.end());
-    while (n > k){
+    ios_base::sync_with_stdio(0);
+    freopen("filse/train.tsv" , "r" , stdin);
+    bool o = false;
+    int t = 0 ;
+    double s =0.0 , a;
+    for(;;){
+        cin >> a ;
+        t ++ ;
 
-        ans = ans + verr.back();
-        verr.pop_back();
-        n -- ;
+        if(t <= 100){
+            s += a ;
+            cout << a <<'\n';
+        }
+        else {
+            cout << s;
+            t = 0;
+            return 0;
+        }
     }
-    cout << ans ;
 }
