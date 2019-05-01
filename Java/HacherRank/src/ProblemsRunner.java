@@ -1,6 +1,6 @@
 public class ProblemsRunner {
     public static void main(String[] args){
-        JavaSubstringComparions javaSubstringComparions = new JavaSubstringComparions();
-        javaSubstringComparions.getSmallestAndLargest("welcometojava " , 3);
+        StringTokens stringTokens = new StringTokens();
+        stringTokens.solve();
     }
 }
