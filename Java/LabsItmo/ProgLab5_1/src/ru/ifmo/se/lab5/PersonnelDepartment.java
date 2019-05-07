@@ -1,8 +1,24 @@
 package ru.ifmo.se.lab5;
+import com.sun.org.apache.bcel.internal.generic.JsrInstruction;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
+
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.Reader;
+import java.util.Iterator;
+
+import java.io.*;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
-import java.util.Scanner;
+import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+Vector<PersonnelDeoartment>
 
 public class PersonnelDepartment {
     private static Scanner scan = new Scanner(System.in);
@@ -18,50 +34,93 @@ public class PersonnelDepartment {
             e.printStackTrace();
         }
     }
+
+    private final String jsonFileName = "C:\\Users\\KHUSRAV\\Documents\\Programming\\Java\\LabsItmo\\ProgLab5_1\\src\\ru\\ifmo\\se\\lab5\\Doctors.json"; //Путь к Json файлу
+    Scanner sc;
+    //JSONParser jsonParser = JSONParser();
+    StringBuilder jsonStrBuilder = new StringBuilder();
+    Vector<Map<String , String>> doctors = new Vector<>();//Масив из словарей(Dictionary)
     void addDoctor(){
-        connectToDatabase();
-        String name ;
-        String surname;
-        int age ;
-        String adress ;
-        String phone ;
-        System.out.println("Ваше имя: ");
-        Scanner scan = new Scanner(System.in);
-        name = scan.next();
-        System.out.println("Ваша Фамилия: ");
-        surname = scan.next();
-        System.out.println("Сколько вам лет: ");
-        try {
-            age = scan.nextInt();
-        } catch (Exception e) {
-            System.out.println("Вы вели неправелный возраст");
-            return;
+        for(;;) {
+            String command = scan.nextLine();// команда которая приходить из командной строки
+            String load = "^load$";
+            String removeElement = "^remove\\s\\{.*[:]{1}.*[,].*[:]{1}.*[,].*[:]{1}.*[,].*[:]{1}.*\\}$";
+            String info = "^info$";
+            String addElement = "^add\\s\\{.*[:]{1}.*[,].*[:]{1}.*[,].*[:]{1}.*[,].*[:]{1}.*\\}$";
+            String removeIndex = "^remove\\s\\{\\d*\\}";
+            String show = "^show$";
+            String remove_first = "^remove_first$";
+            if (Pattern.compile(load).matcher(command).find()) {
+                System.out.println("load");
+                load();
+            } else if (Pattern.compile(removeElement).matcher(command).find()) {
+                System.out.println("removeElement");
+                Map<String , String> m = new HashMap<>();
+                Matcher matcher = Pattern.compile("[a-zA-Z0-9\"]*[:]{1}[a-zA-Z0-9А-Яа-я\"]*").matcher(command);
+                while(matcher.find())
+                    System.out.println(matcher.group());
+
+            } else if (Pattern.compile(info).matcher(command).find()) {
+                System.out.println("info");
+            } else if (Pattern.compile(addElement).matcher(command).find()) {
+                System.out.println("addElement");
+            } else if (Pattern.compile(removeIndex).matcher(command).find()){
+                System.out.println("addElement");
+            } else if(Pattern.compile(show).matcher(command).find()){
+                System.out.println("show");
+            } else if(Pattern.compile(remove_first).matcher(command).find()){
+                System.out.println("remove_first");
+            }else{
+                System.out.println("----- вы вели еправльную команду");
+            }
+            /**doctors.get(0).get("name");
+             *
+             */
+            //for(StringBuilder i : jsonStrBuilder)
+            System.out.println("Доктор добавлен!");
         }
-        System.out.println("Ваш адресс: ");
-        scan.nextLine();
-        adress = scan.nextLine();
-        System.out.println("Ваш номер телефона: ");
-        phone = scan.next();
-        try{
-            //Connection connection = DriverManager.getConnection(DB_URL , DB_login , DB_password);
-            String sql1 = "INSERT INTO doctors (name , surname , age , adress , phone) " +
-                    "VALUES(?,?,?,?,?)";
-            PreparedStatement statement = connection.prepareStatement(sql1);
-            /*String sql = "INSERT INTO patients (name , surname , age , adress , phone) " +
-                    "VALUES" + "(" + name + ", " + surname + ", " + age + ", " + adress + ", " + phone + ")";
-            String tt = "INSERT INTO patients (name , surname , age , adress , phone) " +
-                    "VALUES ('wer' , 'rew' , 17 , 'wqerwqeqeqweq' , '+79819710947')";
-            */
-            statement.setString(1 , name);
-            statement.setString(2 , surname);
-            statement.setInt(3 , age);
-            statement.setString(4 , adress);
-            statement.setString(5, phone);
-            statement.executeUpdate();
-        } catch (Exception e) {
-            System.out.println("Не удаётся добавит Доктора");
+    }
+    public void load(){
+        try {
+            sc = new Scanner(new File(jsonFileName));
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+            System.out.println("----");
+        }
+        while (sc.hasNext()){
+            jsonStrBuilder.append(sc.next());
+        }
+        sc.close();
+        System.out.println(jsonStrBuilder.toString());
+        JSONObject jsonObject = new JSONObject();
+        JSONArray jsonArray = new JSONArray();
+        try {
+            //jsonObject = (JSONObject) new JSONParser().parse(jsonStrBuilder.toString());
+
+            jsonArray = (JSONArray) new JSONParser().parse(jsonStrBuilder.toString());// массив из докторов в формате Json
+        }catch (ParseException e){
             e.printStackTrace();
         }
-        System.out.println("Доктор добавлен!");
+        Iterator<JSONObject> iterator = jsonArray.iterator();
+
+
+        while (iterator.hasNext()){
+            Map<String , String> m = new HashMap<>();
+            JSONObject jsonResult = new JSONObject();
+            jsonResult = (JSONObject) iterator.next(); // итератор для обхода массива jsonArray
+
+            System.out.println(jsonResult);
+            try {
+                m.put("name", jsonResult.get("name").toString());
+                m.put("lastName", jsonResult.get("lastName").toString());
+                m.put("address", jsonResult.get("address").toString());
+                m.put("age", jsonResult.get("age").toString());
+                doctors.add(m);
+            }catch (NullPointerException e){
+                e.printStackTrace();
+            }
+
+        }
     }
+
 }
