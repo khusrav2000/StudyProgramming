@@ -1,12 +1,14 @@
+import org.omg.CORBA.MARSHAL;
+
 import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class ProblemsRunner {
+
     public static void main(String[] args){
-        Scanner in = new Scanner(System.in);
-        while(in.hasNext()){
-            String IP = in.next();
-            System.out.println(IP.matches(new MyRegex1().pattern));
-        }
+        TagContentExtractor tagContentExtractor = new TagContentExtractor();
+        tagContentExtractor.start();
     }
 }
 class MyRegex1 {

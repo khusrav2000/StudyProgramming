@@ -2,10 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddc505ec-b118-4a67-a7f3-dc24afa9fb4c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../C++/Edu55E/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Edu55E/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/Edu55E.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/Edu55E.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/Edu55E.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/Edu55E.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/Edu55E.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/Edu55E.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/Edu55E/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Edu55E/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HacherRank/MyRegex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HacherRank/MyRegex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HacherRank/MyRegex1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HacherRank/MyRegex1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HacherRank/ProblemsRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HacherRank/ProblemsRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HacherRank/StringTokens.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HacherRank/StringTokens.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProblemsRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProblemsRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabsItmo/ProgLab4_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LabsItmo/ProgLab4_2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabsItmo/ProgLab5_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LabsItmo/ProgLab5_1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabsItmo/ProgLab5_1/out/production/ProgLab3_Hospital/ru/ifmo/se/lab5/PersonnelDepartment.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LabsItmo/ProgLab5_1/out/production/ProgLab3_Hospital/ru/ifmo/se/lab5/PersonnelDepartment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabsItmo/ProgLab5_1/src/ru/ifmo/se/lab5/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LabsItmo/ProgLab5_1/src/ru/ifmo/se/lab5/Doctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabsItmo/ProgLab5_1/src/ru/ifmo/se/lab5/Doctors.json" beforeDir="false" afterPath="$PROJECT_DIR$/../LabsItmo/ProgLab5_1/src/ru/ifmo/se/lab5/Doctors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabsItmo/ProgLab5_1/src/ru/ifmo/se/lab5/Medicaments.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LabsItmo/ProgLab5_1/src/ru/ifmo/se/lab5/Medicaments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabsItmo/ProgLab5_1/src/ru/ifmo/se/lab5/PersonnelDepartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LabsItmo/ProgLab5_1/src/ru/ifmo/se/lab5/PersonnelDepartment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabsItmo/ProgLab5_1/src/ru/ifmo/se/lab5/Pharmacy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LabsItmo/ProgLab5_1/src/ru/ifmo/se/lab5/Pharmacy.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,45 +32,85 @@
     <session id="62603781">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.closed" value="14" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.9" value="4" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="10" />
+          <entry key="java" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="10" />
+          <entry key="JAVA" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2453" />
+          <entry key="java" value="4227" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2453" />
+          <entry key="JAVA" value="4227" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ProblemsRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            <state relative-caret-position="102">
+              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AsciiCharSequence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+              <folding>
+                <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JavaRegex2_DuplicateWords.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TagContentExtractor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,8 +154,11 @@
         <option value="$PROJECT_DIR$/src/JavaSubstringComparions.java" />
         <option value="$PROJECT_DIR$/src/Anagrams.java" />
         <option value="$PROJECT_DIR$/src/StringTokens.java" />
-        <option value="$PROJECT_DIR$/src/ProblemsRunner.java" />
         <option value="$PROJECT_DIR$/src/MyRegex.java" />
+        <option value="$PROJECT_DIR$/src/JavaRegex2_DuplicateWords.java" />
+        <option value="$PROJECT_DIR$/src/AsciiCharSequence.java" />
+        <option value="$PROJECT_DIR$/src/ProblemsRunner.java" />
+        <option value="$PROJECT_DIR$/src/TagContentExtractor.java" />
       </list>
     </option>
   </component>
@@ -124,12 +181,31 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="HacherRank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HacherRank" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HacherRank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HacherRank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556805137409" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558432933040" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../LabsItmo/ProgLab5_1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -172,16 +248,23 @@
       <workItem from="1556722610209" duration="3296000" />
       <workItem from="1556803408341" duration="2177000" />
       <workItem from="1557140043811" duration="20000" />
+      <workItem from="1557329572621" duration="3774000" />
+      <workItem from="1557490550180" duration="240000" />
+      <workItem from="1558093932683" duration="2080000" />
+      <workItem from="1558175194248" duration="4956000" />
+      <workItem from="1558423885152" duration="13000" />
+      <workItem from="1558430726401" duration="1420000" />
+      <workItem from="1558615609624" duration="136000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18782000" />
+    <option name="totallyTimeSpent" value="31401000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.27125505" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.302834" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -190,7 +273,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3291815" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27046263" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -216,6 +299,18 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JavaRegex2_DuplicateWords.java</url>
+          <line>7</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Scanner.java">
@@ -262,8 +357,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ProblemsRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        <state relative-caret-position="102">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AsciiCharSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+          <folding>
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaRegex2_DuplicateWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -278,6 +397,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TagContentExtractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,9 +1,12 @@
 package ru.ifmo.se.lab5;
 import com.sun.org.apache.bcel.internal.generic.JsrInstruction;
+import com.sun.org.apache.bcel.internal.generic.Type;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
+import org.omg.CORBA.MARSHAL;
+import sun.security.krb5.internal.PAData;
 
 import java.io.FileReader;
 import java.io.IOException;
@@ -17,9 +20,6 @@ import java.sql.PreparedStatement;
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-Vector<PersonnelDeoartment>
-
 public class PersonnelDepartment {
     private static Scanner scan = new Scanner(System.in);
     private static Connection connection;
@@ -50,34 +50,46 @@ public class PersonnelDepartment {
             String removeIndex = "^remove\\s\\{\\d*\\}";
             String show = "^show$";
             String remove_first = "^remove_first$";
+            String update = "^update$";
             if (Pattern.compile(load).matcher(command).find()) {
                 System.out.println("load");
                 load();
             } else if (Pattern.compile(removeElement).matcher(command).find()) {
                 System.out.println("removeElement");
-                Map<String , String> m = new HashMap<>();
+
+
                 Matcher matcher = Pattern.compile("[a-zA-Z0-9\"]*[:]{1}[a-zA-Z0-9А-Яа-я\"]*").matcher(command);
-                while(matcher.find())
-                    System.out.println(matcher.group());
+                removeElement(matcher);
 
             } else if (Pattern.compile(info).matcher(command).find()) {
                 System.out.println("info");
+                info();
             } else if (Pattern.compile(addElement).matcher(command).find()) {
                 System.out.println("addElement");
+                Matcher matcher = Pattern.compile("[a-zA-Z0-9\"]*[:]{1}[a-zA-Z0-9А-Яа-я\"]*").matcher(command);
+                addElement(matcher);
             } else if (Pattern.compile(removeIndex).matcher(command).find()){
-                System.out.println("addElement");
+                System.out.println("removeIndex");
+                Matcher matcher = Pattern.compile("\\d*").matcher(command);
+                matcher.find();
+                removeIndex(Integer.parseInt(matcher.group()));
             } else if(Pattern.compile(show).matcher(command).find()){
                 System.out.println("show");
+                show();
             } else if(Pattern.compile(remove_first).matcher(command).find()){
                 System.out.println("remove_first");
-            }else{
+                removeFirst();
+            }else if(Pattern.compile(update).matcher(command).find()){
+                updateJsonFile();
+            }
+            else{
                 System.out.println("----- вы вели еправльную команду");
             }
             /**doctors.get(0).get("name");
              *
              */
             //for(StringBuilder i : jsonStrBuilder)
-            System.out.println("Доктор добавлен!");
+            //System.out.println("Доктор добавлен!");
         }
     }
     public void load(){
@@ -120,6 +132,77 @@ public class PersonnelDepartment {
                 e.printStackTrace();
             }
 
+        }
+    }
+    public void removeElement(Matcher matcher){
+        Map<String , String> delete = new HashMap<>();
+        while(matcher.find()) {
+            String elementMap = matcher.group();
+            System.out.println(elementMap);
+            Matcher m = Pattern.compile("[\\w]*").matcher(elementMap);
+
+            m.find();
+            String key = m.group();
+            m.find();
+            m.find();
+            String value = m.group();
+            System.out.println(key);
+            System.out.println(value);
+            delete.put(key,value);
+        }
+        doctors.remove(delete);
+    }
+    public void info(){
+        System.out.println("Type");
+        System.out.println(doctors.size());
+    }
+    public void addElement(Matcher matcher){
+        Map<String , String> delete = new HashMap<>();
+        while(matcher.find()) {
+            String elementMap = matcher.group();
+            System.out.println(elementMap);
+            Matcher m = Pattern.compile("[\\w]*").matcher(elementMap);
+
+            m.find();
+            String key = m.group();
+            m.find();
+            m.find();
+            String value = m.group();
+            System.out.println(key);
+            System.out.println(value);
+            delete.put(key,value);
+        }
+        doctors.add(delete);
+    }
+    public void removeIndex(int i){
+        doctors.remove(i);
+    }
+    public void show(){
+        for (Map i:doctors){
+            for(Object ads : i.keySet()) {
+                System.out.print(ads + ":");
+                System.out.println(i.get(ads));
+            }
+        }
+    }
+    public void removeFirst(){
+        doctors.remove(0);
+    }
+    public void updateJsonFile(){
+        JSONArray jsonArray = new JSONArray();
+        for(Map i : doctors){
+            JSONObject jsonObject = new JSONObject();
+            for(Object ads : i.keySet()) {
+                System.out.print(ads + ":");
+                System.out.println(i.get(ads));
+                jsonObject.put(ads , i.get(ads));
+            }
+            jsonArray.add(jsonObject);
+        }
+        try (FileWriter file = new FileWriter(jsonFileName)) {
+            file.write(jsonArray.toJSONString());
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 

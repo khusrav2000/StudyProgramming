@@ -3,6 +3,7 @@ import java.util.ArrayList;
 
 public class Pharmacy{
     Pharmasist pharmasist;
+    //TODO: add field medicaments with type array
     Pharmacy(){
         pharmasist = new Pharmasist();
     }

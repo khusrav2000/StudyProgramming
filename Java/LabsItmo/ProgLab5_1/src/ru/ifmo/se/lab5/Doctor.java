@@ -7,6 +7,7 @@ import java.util.Random;
 import static java.lang.Math.abs;
 
 public class Doctor extends Person {
+
     Doctor(ResultSet st){
         try {
             super.name = st.getString("name");

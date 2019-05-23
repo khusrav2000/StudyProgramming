@@ -1,4 +1,6 @@
 package ru.ifmo.se.lab5;
+
+//Todo:: convert to class with fields: name, price
 enum Medicaments {
     новокаин(123.2),
     пирамидон(321.4),
