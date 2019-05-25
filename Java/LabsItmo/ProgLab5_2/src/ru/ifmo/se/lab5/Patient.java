@@ -6,7 +6,7 @@ class Patient extends Person{
     Patient(ResultSet st) throws SQLException {
         MakeNewPerson newPatient = new MakeNewPerson();
         super.name = st.getString("name");
-        super.surname = st.getString("surname");
+        super.lastname = st.getString("surname");
         super.temperature = newPatient.getTemperature();
         super.pressure = "120/70";
     }

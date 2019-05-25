@@ -1,14 +1,14 @@
 package ru.ifmo.se.lab5;
 public abstract class Person {
     String name;
-    String surname;
+    String lastname;
     String pressure;
     Double temperature;
     public String getName(){
         return name ;
     }
     public String getSurname(){
-        return surname;
+        return lastname;
     }
     public Double getTemperature(){
         return temperature;

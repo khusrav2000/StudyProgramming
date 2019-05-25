@@ -11,7 +11,7 @@ public class Doctor extends Person {
     Doctor(ResultSet st){
         try {
             super.name = st.getString("name");
-            super.surname = st.getString("surname");
+            super.lastname = st.getString("surname");
         } catch (SQLException e) {
             e.printStackTrace();
         }

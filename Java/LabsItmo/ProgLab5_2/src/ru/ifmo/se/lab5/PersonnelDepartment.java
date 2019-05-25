@@ -35,11 +35,12 @@ public class PersonnelDepartment {
         }
     }
 
-    private final String jsonFileName = "C:\\Users\\KHUSRAV\\Documents\\Programming\\Java\\LabsItmo\\ProgLab5_1\\src\\ru\\ifmo\\se\\lab5\\Doctors.json"; //Путь к Json файлу
+    private final String jsonFileName = "C:\\Users\\KHUSRAV\\Documents\\Programming\\Java\\LabsItmo\\ProgLab5_2\\src\\ru\\ifmo\\se\\lab5\\Pharmacies.json"; //Путь к Json файлу
     Scanner sc;
     //JSONParser jsonParser = JSONParser();
     StringBuilder jsonStrBuilder = new StringBuilder();
-    Vector<Map<String , String>> doctors = new Vector<>();//Масив из словарей(Dictionary)
+    Vector<Pharmacy> pharmacies= new Vector<>();
+    //Масив из словарей(Dictionary)
     void addDoctor(){
         for(;;) {
             String command = scan.nextLine();// команда которая приходить из командной строки
@@ -54,7 +55,7 @@ public class PersonnelDepartment {
             if (Pattern.compile(load).matcher(command).find()) {
                 System.out.println("load");
                 load();
-            } else if (Pattern.compile(removeElement).matcher(command).find()) {
+            }/* else if (Pattern.compile(removeElement).matcher(command).find()) {
                 System.out.println("removeElement");
 
 
@@ -84,7 +85,7 @@ public class PersonnelDepartment {
             }
             else{
                 System.out.println("----- вы вели еправльную команду");
-            }
+            }*/
             /**doctors.get(0).get("name");
              *
              */
@@ -107,8 +108,6 @@ public class PersonnelDepartment {
         JSONObject jsonObject = new JSONObject();
         JSONArray jsonArray = new JSONArray();
         try {
-            //jsonObject = (JSONObject) new JSONParser().parse(jsonStrBuilder.toString());
-
             jsonArray = (JSONArray) new JSONParser().parse(jsonStrBuilder.toString());// массив из докторов в формате Json
         }catch (ParseException e){
             e.printStackTrace();
@@ -117,24 +116,22 @@ public class PersonnelDepartment {
 
 
         while (iterator.hasNext()){
-            Map<String , String> m = new HashMap<>();
-            JSONObject jsonResult = new JSONObject();
-            jsonResult = (JSONObject) iterator.next(); // итератор для обхода массива jsonArray
-
-            System.out.println(jsonResult);
-            try {
-                m.put("name", jsonResult.get("name").toString());
-                m.put("lastName", jsonResult.get("lastName").toString());
-                m.put("address", jsonResult.get("address").toString());
-                m.put("age", jsonResult.get("age").toString());
-                doctors.add(m);
-            }catch (NullPointerException e){
-                e.printStackTrace();
+            Pharmacy pharmacy = new Pharmacy();
+            JSONObject jsonResult;
+            jsonResult = iterator.next(); // итератор для обхода массива jsonArray
+            JSONArray medicamets = (JSONArray) jsonResult.get("medicaments");
+            Iterator<JSONObject> iteratorTwo = medicamets.iterator();
+            while (iteratorTwo.hasNext()){
+                JSONObject med = iteratorTwo.next();
+                pharmacy.addMedicament((String) med.get("name") ,(Double) med.get("price"));
             }
-
+            JSONObject phar = (JSONObject) jsonResult.get("pharmasist");
+            pharmacy.setNameToPharmasist((String) phar.get("name") , (String) phar.get("lastname"));
+            pharmacy.setAdress((String) jsonResult.get("adress"));
+            pharmacies.add(pharmacy);
         }
     }
-    public void removeElement(Matcher matcher){
+    /**public void removeElement(Matcher matcher){
         Map<String , String> delete = new HashMap<>();
         while(matcher.find()) {
             String elementMap = matcher.group();
@@ -205,5 +202,5 @@ public class PersonnelDepartment {
             e.printStackTrace();
         }
     }
-
+    **/
 }
