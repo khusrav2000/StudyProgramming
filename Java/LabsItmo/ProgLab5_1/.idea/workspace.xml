@@ -1,7 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9d7b9e8-8f1b-4a9a-afb8-5bac2e215e26" name="Default Changelist" comment="" />
+    <list default="true" id="d9d7b9e8-8f1b-4a9a-afb8-5bac2e215e26" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../AndroidProjects/Calculator/CalculatorProject1_1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AndroidProjects/Calculator/CalculatorProject1_1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClientServer/ClientServerSocket/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClientServer/ClientServerSocket/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClientServer/ClientServerSocket/out/production/ClientServerSocket/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClientServer/ClientServerSocket/out/production/ClientServerSocket/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClientServer/ClientServerSocket/src/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClientServer/ClientServerSocket/src/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgLab3_Hospital/ru/ifmo/se/lab5/AddDiseases.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgLab3_Hospital/ru/ifmo/se/lab5/CreatChek.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgLab3_Hospital/ru/ifmo/se/lab5/Doctor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgLab3_Hospital/ru/ifmo/se/lab5/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgLab3_Hospital/ru/ifmo/se/lab5/MakeNewPerson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgLab3_Hospital/ru/ifmo/se/lab5/Medicaments.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgLab3_Hospital/ru/ifmo/se/lab5/Orderly.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgLab3_Hospital/ru/ifmo/se/lab5/Patient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgLab3_Hospital/ru/ifmo/se/lab5/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgLab3_Hospital/ru/ifmo/se/lab5/PersonnelDepartment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgLab3_Hospital/ru/ifmo/se/lab5/Pharmacy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgLab3_Hospital/ru/ifmo/se/lab5/PharmacyInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgLab3_Hospital/ru/ifmo/se/lab5/Pharmasist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgLab3_Hospital/ru/ifmo/se/lab5/Recipe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgLab3_Hospital/ru/ifmo/se/lab5/Room.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgLab3_Hospital/ru/ifmo/se/lab5/Thermometer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgLab3_Hospital/ru/ifmo/se/lab5/Tonometer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProgLab5_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProgLab5_2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProgLab5_2/out/production/ProgLab3_Hospital/ru/ifmo/se/lab5/AddDiseases.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProgLab5_2/out/production/ProgLab3_Hospital/ru/ifmo/se/lab5/CreatChek.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProgLab5_2/out/production/ProgLab3_Hospital/ru/ifmo/se/lab5/Doctor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProgLab5_2/out/production/ProgLab3_Hospital/ru/ifmo/se/lab5/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProgLab5_2/out/production/ProgLab3_Hospital/ru/ifmo/se/lab5/MakeNewPerson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProgLab5_2/out/production/ProgLab3_Hospital/ru/ifmo/se/lab5/Medicaments.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProgLab5_2/out/production/ProgLab3_Hospital/ru/ifmo/se/lab5/Orderly.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProgLab5_2/out/production/ProgLab3_Hospital/ru/ifmo/se/lab5/Patient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProgLab5_2/out/production/ProgLab3_Hospital/ru/ifmo/se/lab5/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProgLab5_2/out/production/ProgLab3_Hospital/ru/ifmo/se/lab5/PersonnelDepartment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProgLab5_2/out/production/ProgLab3_Hospital/ru/ifmo/se/lab5/Pharmacy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProgLab5_2/out/production/ProgLab3_Hospital/ru/ifmo/se/lab5/PharmacyInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProgLab5_2/out/production/ProgLab3_Hospital/ru/ifmo/se/lab5/Pharmasist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProgLab5_2/out/production/ProgLab3_Hospital/ru/ifmo/se/lab5/Recipe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProgLab5_2/out/production/ProgLab3_Hospital/ru/ifmo/se/lab5/Room.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProgLab5_2/out/production/ProgLab3_Hospital/ru/ifmo/se/lab5/Thermometer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProgLab5_2/out/production/ProgLab3_Hospital/ru/ifmo/se/lab5/Tonometer.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -189,12 +230,13 @@
     <session id="252966775">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.1" value="3" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -211,7 +253,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="13" />
+          <entry key="java" value="14" />
           <entry key="json" value="2" />
           <entry key="lab4" value="1" />
           <entry key="xml" value="1" />
@@ -219,7 +261,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="13" />
+          <entry key="JAVA" value="14" />
           <entry key="JSON" value="2" />
           <entry key="UML" value="1" />
           <entry key="XML" value="1" />
@@ -230,21 +272,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/se/lab5/Doctor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/ifmo/se/lab5/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1428">
+            <state relative-caret-position="381">
               <caret line="85" selection-start-line="85" selection-end-line="85" />
             </state>
           </provider>
@@ -268,11 +298,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/ifmo/se/lab5/PersonnelDepartment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+            <state relative-caret-position="374">
+              <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="43" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -286,11 +316,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/se/lab5/MakeNewPerson.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/ifmo/se/lab5/Medicaments.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="16" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="16" />
+            <state relative-caret-position="136">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -408,8 +447,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -523,16 +562,27 @@
       <workItem from="1557214456608" duration="11491000" />
       <workItem from="1558423901828" duration="7581000" />
       <workItem from="1558615748034" duration="613000" />
+      <workItem from="1567771841138" duration="25000" />
+      <workItem from="1567772157096" duration="33000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112776000" />
+    <option name="totallyTimeSpent" value="112834000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20080972" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20728745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -545,7 +595,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3291815" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
@@ -735,13 +785,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SelectPharmacy.java" />
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/se/lab5/MakeNewPerson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/ifmo/se/lab5/PharmacyInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -943,18 +986,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/ifmo/se/lab5/Doctor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="153">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/se/lab5/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
         </state>
       </provider>
     </entry>
@@ -972,17 +1008,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/se/lab5/Pharmacy.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/se/lab5/PersonnelDepartment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/se/lab5/Medicaments.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="16" />
+        <state relative-caret-position="374">
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="43" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1007,10 +1036,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/se/lab5/PersonnelDepartment.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/se/lab5/Medicaments.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        <state relative-caret-position="136">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/se/lab5/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/se/lab5/Pharmacy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/se/lab5/MakeNewPerson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>

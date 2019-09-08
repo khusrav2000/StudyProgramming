@@ -1,9 +1,9 @@
 [
   {
-    "adress":"Чкаловский проспект",
-    "pharmasist":{
+    "address":"Чкаловский проспект",
+    "pharmacist":{
       "name":"Вася",
-      "lastname":"Иванов"
+      "last_ame":"Иванов"
     },
     "medicaments":[
       {
