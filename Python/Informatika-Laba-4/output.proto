@@ -1,0 +1,21 @@
+message lesson_1 {
+ required string name = 0;
+ required string time = 1;
+ required string classroom = 2;
+ required string adress = 3;
+ required string week = 4;
+}
+message lesson_2 {
+ required string name = 0;
+ required string time = 1;
+ required string classroom = 2;
+ required string adress = 3;
+ required string week = 4;
+}
+message lesson_3 {
+ required string name = 0;
+ required string time = 1;
+ required string classroom = 2;
+ required string adress = 3;
+ required string week = 4;
+}

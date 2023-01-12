@@ -58,10 +58,10 @@ RM = "C:\Users\KHUSRAV\AppData\Local\JetBrains\CLion 2018.3\bin\cmake\win\bin\cm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\KHUSRAV\Documents\Programminig\C++\Edu55E
+CMAKE_SOURCE_DIR = C:\Users\KHUSRAV\Documents\Programming\C++\Edu55E
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\KHUSRAV\Documents\Programminig\C++\Edu55E\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\KHUSRAV\Documents\Programming\C++\Edu55E\cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/Edu55E.dir
@@ -70,7 +70,7 @@ CMAKE_BINARY_DIR = C:\Users\KHUSRAV\Documents\Programminig\C++\Edu55E\cmake-buil
 CMakeFiles/Edu55E.dir/all:
 	$(MAKE) -f CMakeFiles\Edu55E.dir\build.make CMakeFiles/Edu55E.dir/depend
 	$(MAKE) -f CMakeFiles\Edu55E.dir\build.make CMakeFiles/Edu55E.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\KHUSRAV\Documents\Programminig\C++\Edu55E\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Edu55E"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\KHUSRAV\Documents\Programming\C++\Edu55E\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Edu55E"
 .PHONY : CMakeFiles/Edu55E.dir/all
 
 # Include target in all.
@@ -80,9 +80,9 @@ all: CMakeFiles/Edu55E.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Edu55E.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\KHUSRAV\Documents\Programminig\C++\Edu55E\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\KHUSRAV\Documents\Programming\C++\Edu55E\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Edu55E.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\KHUSRAV\Documents\Programminig\C++\Edu55E\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\KHUSRAV\Documents\Programming\C++\Edu55E\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Edu55E.dir/rule
 
 # Convenience name for target.

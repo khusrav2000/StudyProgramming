@@ -1,0 +1,13 @@
+9.1: 75406.062
+9.2: 14
+9.2: Histogram
+
+String
+String
+String
+Number(whole)
+Number(whole)
+Number(whole)
+Number(whole)
+Number(whole)
+String

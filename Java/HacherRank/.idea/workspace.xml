@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ddc505ec-b118-4a67-a7f3-dc24afa9fb4c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../C++/1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/Edu55E/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Edu55E/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/Edu55E.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/Edu55E.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/Edu55E.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/CMakeFiles/Edu55E.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/Edu55E.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Edu55E/cmake-build-debug/Edu55E.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/Edu55E/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Edu55E/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HacherRank/JavaRegex2_DuplicateWords.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HacherRank/MyRegex1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HacherRank/ProblemsRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HacherRank/TagContentExtractor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProblemsRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProblemsRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TagContentExtractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python/Machine learning/Lab1_pandas.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/Machine learning/Lab1_pandas.ipynb" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="78" />
+    <option name="y" value="51" />
+    <option name="width" value="1146" />
+    <option name="height" value="711" />
+  </component>
+  <component name="ProjectId" id="24mM804s49sRtDbB0zF2kTA01pc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558432933040" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LabsItmo/ProgLab5_1" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="Docker" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ProblemsRunner" />
+      <module name="HacherRank" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ddc505ec-b118-4a67-a7f3-dc24afa9fb4c" name="Default Changelist" comment="" />
+      <created>1547293419126</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547293419126</updated>
+      <workItem from="1547293422137" duration="4096000" />
+      <workItem from="1556121990193" duration="4775000" />
+      <workItem from="1556209614821" duration="56000" />
+      <workItem from="1556278265798" duration="4362000" />
+      <workItem from="1556722610209" duration="3296000" />
+      <workItem from="1556803408341" duration="2177000" />
+      <workItem from="1557140043811" duration="20000" />
+      <workItem from="1557329572621" duration="3774000" />
+      <workItem from="1557490550180" duration="240000" />
+      <workItem from="1558093932683" duration="2080000" />
+      <workItem from="1558175194248" duration="4956000" />
+      <workItem from="1558423885152" duration="13000" />
+      <workItem from="1558430726401" duration="1420000" />
+      <workItem from="1558615609624" duration="136000" />
+      <workItem from="1644231152166" duration="159000" />
+      <workItem from="1644756247083" duration="307000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JavaRegex2_DuplicateWords.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -3,5 +3,4 @@ project(C++)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Edu55E Edu55E/main.cpp)
-add_executable(Runner )
+add_executable(Edu55E main.cpp)

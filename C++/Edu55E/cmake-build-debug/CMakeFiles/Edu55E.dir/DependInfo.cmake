@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/KHUSRAV/Documents/Programminig/C++/Edu55E/main.cpp" "C:/Users/KHUSRAV/Documents/Programminig/C++/Edu55E/cmake-build-debug/CMakeFiles/Edu55E.dir/main.cpp.obj"
+  "C:/Users/KHUSRAV/Documents/Programming/C++/Edu55E/main.cpp" "C:/Users/KHUSRAV/Documents/Programming/C++/Edu55E/cmake-build-debug/CMakeFiles/Edu55E.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
